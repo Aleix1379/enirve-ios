@@ -1,0 +1,24 @@
+PODS:
+  - GTProgressBar (0.2.4)
+  - SkyFloatingLabelTextField (3.5.1)
+  - UICircularProgressRing (2.1.0)
+
+DEPENDENCIES:
+  - GTProgressBar
+  - SkyFloatingLabelTextField (~> 3.0)
+  - UICircularProgressRing
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GTProgressBar
+    - SkyFloatingLabelTextField
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  GTProgressBar: 1d79e4a627e997263b612c7e6589126dfe5645b8
+  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+  UICircularProgressRing: 01b8f67bbaca7e3a83ccfa67630fe059a51211d1
+
+PODFILE CHECKSUM: 20f50d17854e7676789bbc5b37cd6407457ea859
+
+COCOAPODS: 1.5.3

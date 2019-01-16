@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BD4C78BE212C57AB85826E85E1EBC3 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8036BFF325017134BB304C6FC38FD763 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B2D4045235A53D2D24366D510E8A1F /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC8A93291B3095E58695232912233A /* UITextField+fixCaretPosition.swift */; };
+		1875CE7988A3B22644B5D0F4B82296D2 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE4933AE77E4D0C5C720EB7EE97C6BC /* SkyFloatingLabelTextField-dummy.m */; };
+		189B3E7D7B7C90767DA4BD96BEAF137E /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFDA7E31ECDDA917744540012D1BC2 /* UICircularProgressRingView.swift */; };
+		1AD4A092625B085C58254B1A2A1D1395 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC84D680143AD166D99EC6D4341E81 /* SkyFloatingLabelTextField.swift */; };
+		350523E0AFBD0A7C25FC3D46B96A469A /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF48E4210716F91069D5C5035F6E5DA8 /* UICircularProgressRingDelegate.swift */; };
+		36952DD4A2503555FBFEAFDD3C15A4AB /* GTProgressBarCornerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3DA8BB3577BCE5B664E465131F3CFC /* GTProgressBarCornerType.swift */; };
+		476FAEE20599FFDFC52D2403C0706AF5 /* FrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB953D0A66678AB7A1854BDD1CA89C5 /* FrameCalculator.swift */; };
+		54413514B694E03BC7A15A23DE456266 /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675E48717B9FC009D8D2C846D07E287 /* UICircularProgressRingLayer.swift */; };
+		550E5BEEAC016C12BE118DFB92C4F635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5D8D7A64B6FE6AE34858E36B6B699B47 /* GTProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69916A8339EA4346701EFA18FF54FB31 /* GTProgressBar-dummy.m */; };
+		63DDA2FD2922326E0218A8BC9C8D665D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6A7F97514886644231937757F5647B19 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA6D6FB301E1AE8841019C1557140E /* UILabelExtensions.swift */; };
+		79FD334DF6EA52BDC29C93BD032C0A5A /* UICircularProgressRingGradientPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B963936A4B757EE6425A4B841A90071 /* UICircularProgressRingGradientPosition.swift */; };
+		7D7205A0D1D88D69CCDBAAA6F98858B6 /* UICircularProgressRing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8491F615C07DB69A89E8327CBBBFA61 /* UICircularProgressRing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93642E079C2ED0D0010D84CA4AA32BBB /* GTProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B789DFFA05EE00D550A604B955E16 /* GTProgressBar.swift */; };
+		95A5F7E5C922A029231686499D941EC4 /* UICircularProgressRing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CBCB39A5234B90D768E55957AC1873 /* UICircularProgressRing-dummy.m */; };
+		9C440FB7D8CC5583D2342776F0DA197D /* HorizontalLabelPositionFrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C942235ABCF053F3C2A87138EE3F2D5E /* HorizontalLabelPositionFrameCalculator.swift */; };
+		A48B2035D2CCB468698821FBCC537766 /* GTProgressBarDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11239A714D341835117F1CA3850AFA79 /* GTProgressBarDirection.swift */; };
+		B382A38BCE3796B36FC4705E080EE52D /* GTProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E9774B15762C17CC5C263EAB440E3B /* GTProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CF4D9029E43428577B0CA1FA6FE2FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B966C27AB14EA27CBCF2B9018D2DD890 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEACBB48F9210ECA7F43624DCEA73AB4 /* UIViewExtensions.swift */; };
+		BA2E72110A53B9712BE5E6D53FF1D29B /* UICircularProgressRingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64085ED06A96B0A205F114E50798E540 /* UICircularProgressRingStyle.swift */; };
+		BB13E9B1DBDBAE279D859A168B7E0A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C0DF5F75E8ACF25595BBC08001A4B885 /* GTProgressBarOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99D14228FD2B45647A304A3718962E7 /* GTProgressBarOrientation.swift */; };
+		CDC48EBCCA9485A5FEDCFA36EAEF660E /* UICircularProgressRing.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAC4C60E57908268CC6DA2A1B6C5CD3 /* UICircularProgressRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0040890F2028B3EAB5A939129051938 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBBCE72A8461ED816DCC9A7C29AD5F /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		D1E7D4B471C6AF1474BEA5ACECA88EE5 /* VerticalLabelPositionFrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EC444BECDE279FEA8E27C8026AB1AE /* VerticalLabelPositionFrameCalculator.swift */; };
+		E2D977A164E3DE1CA8F724C733F249D0 /* Pods-enirve-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AABDCBFF79E47EBE5ABFFF3D426D05DC /* Pods-enirve-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A8A51370C955835CD4BD4ACA709B0E /* GTProgressBarLabelPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9190C7B0723D1FF9C648EBC882967C0 /* GTProgressBarLabelPosition.swift */; };
+		EA3213EF6B97B5AA2B96C500FBB72003 /* Pods-enirve-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D979833776EEC2354EAB7FE0C1783 /* Pods-enirve-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB4D8AB07E1643A43561D5D310200C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E18970B88FD553C148F216EE439F51CE;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		AE2871A45503ACA5A27C7C099276727E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F900866A3F3BA88A07A675DDB2CE90F8;
+			remoteInfo = GTProgressBar;
+		};
+		F7B5388B72209B7809591E93C5F1F58F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF3F7B4523DC684E449F8F2A05406CE;
+			remoteInfo = UICircularProgressRing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3DA8BB3577BCE5B664E465131F3CFC /* GTProgressBarCornerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarCornerType.swift; path = GTProgressBar/Classes/GTProgressBarCornerType.swift; sourceTree = "<group>"; };
+		0DEA6D6FB301E1AE8841019C1557140E /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = GTProgressBar/Classes/UILabelExtensions.swift; sourceTree = "<group>"; };
+		11239A714D341835117F1CA3850AFA79 /* GTProgressBarDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarDirection.swift; path = GTProgressBar/Classes/GTProgressBarDirection.swift; sourceTree = "<group>"; };
+		1DB6D91C66A51B08CE7FC5D3AC4A5B8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB953D0A66678AB7A1854BDD1CA89C5 /* FrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCalculator.swift; path = GTProgressBar/Classes/FrameCalculator.swift; sourceTree = "<group>"; };
+		1E2DBD0BB8C00D1BC7913D85D6FC9E18 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		271C1E50EE84270AC7665D40BFD3EF78 /* Pods-enirve.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-enirve.modulemap"; sourceTree = "<group>"; };
+		295012B8C4691A9838058ACCBC7ADAE3 /* Pods-enirve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enirve.release.xcconfig"; sourceTree = "<group>"; };
+		2AF86567547BC016553668368B3CD12E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B963936A4B757EE6425A4B841A90071 /* UICircularProgressRingGradientPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingGradientPosition.swift; path = src/UICircularProgressRing/UICircularProgressRingGradientPosition.swift; sourceTree = "<group>"; };
+		2BB13638CE6D3B2F5FACF9405B6F4E7F /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDC8A93291B3095E58695232912233A /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		3D9C6093A7DA3ECCD810927998B3F94C /* GTProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTProgressBar.xcconfig; sourceTree = "<group>"; };
+		4DFF89341CE2FCAA1CBC7458AD1B6E90 /* Pods-enirve-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enirve-frameworks.sh"; sourceTree = "<group>"; };
+		4EBBBCE72A8461ED816DCC9A7C29AD5F /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C83CCC5E2A143F7023185776BA9B01C /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		64085ED06A96B0A205F114E50798E540 /* UICircularProgressRingStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingStyle.swift; path = src/UICircularProgressRing/UICircularProgressRingStyle.swift; sourceTree = "<group>"; };
+		65DFDA7E31ECDDA917744540012D1BC2 /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = src/UICircularProgressRing/UICircularProgressRingView.swift; sourceTree = "<group>"; };
+		6675E48717B9FC009D8D2C846D07E287 /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = src/UICircularProgressRing/UICircularProgressRingLayer.swift; sourceTree = "<group>"; };
+		69916A8339EA4346701EFA18FF54FB31 /* GTProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTProgressBar-dummy.m"; sourceTree = "<group>"; };
+		6A5F32B709339093409BE2CC8BEC6AA0 /* UICircularProgressRing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICircularProgressRing.xcconfig; sourceTree = "<group>"; };
+		7D3D52CC46F3C5612D079A2ABE36FDE5 /* Pods-enirve-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-enirve-resources.sh"; sourceTree = "<group>"; };
+		8036BFF325017134BB304C6FC38FD763 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		93907C2342FB7AC0FB5BD1EBE9114F57 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99EC444BECDE279FEA8E27C8026AB1AE /* VerticalLabelPositionFrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalLabelPositionFrameCalculator.swift; path = GTProgressBar/Classes/VerticalLabelPositionFrameCalculator.swift; sourceTree = "<group>"; };
+		9BCB21180A7AE922B66D18D4B41212B4 /* GTProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B09E5BC6E230CEC9F578E87774BD0A /* Pods-enirve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-enirve.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C92AD051B786791F326DC2270AF4C9 /* Pods-enirve-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-enirve-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA42636C08E864E69A9392F73C9F5CBE /* GTProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		AAAC84D680143AD166D99EC6D4341E81 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		AABDCBFF79E47EBE5ABFFF3D426D05DC /* Pods-enirve-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-enirve-umbrella.h"; sourceTree = "<group>"; };
+		ABE4933AE77E4D0C5C720EB7EE97C6BC /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		AEACBB48F9210ECA7F43624DCEA73AB4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = GTProgressBar/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		AF47645E1EB87D2FB4F5008BF927390E /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF48E4210716F91069D5C5035F6E5DA8 /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = src/UICircularProgressRing/UICircularProgressRingDelegate.swift; sourceTree = "<group>"; };
+		B09B789DFFA05EE00D550A604B955E16 /* GTProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBar.swift; path = GTProgressBar/Classes/GTProgressBar.swift; sourceTree = "<group>"; };
+		B3CBCB39A5234B90D768E55957AC1873 /* UICircularProgressRing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICircularProgressRing-dummy.m"; sourceTree = "<group>"; };
+		B8491F615C07DB69A89E8327CBBBFA61 /* UICircularProgressRing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-umbrella.h"; sourceTree = "<group>"; };
+		BB685A4F5EC325EAF346C45CC496AFEA /* Pods-enirve-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-enirve-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD07381ABE5DD33CFBEC971F3A6BAEB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2466662CF31E8918729073B0E23B5F2 /* Pods_enirve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enirve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E9774B15762C17CC5C263EAB440E3B /* GTProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		C942235ABCF053F3C2A87138EE3F2D5E /* HorizontalLabelPositionFrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalLabelPositionFrameCalculator.swift; path = GTProgressBar/Classes/HorizontalLabelPositionFrameCalculator.swift; sourceTree = "<group>"; };
+		CECAECA47C65EAFC45B867B230E6259D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33D979833776EEC2354EAB7FE0C1783 /* Pods-enirve-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-enirve-dummy.m"; sourceTree = "<group>"; };
+		D9190C7B0723D1FF9C648EBC882967C0 /* GTProgressBarLabelPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarLabelPosition.swift; path = GTProgressBar/Classes/GTProgressBarLabelPosition.swift; sourceTree = "<group>"; };
+		DA8DC2E5C60DB7ECBBB0DC5CE8D1828B /* UICircularProgressRing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICircularProgressRing-prefix.pch"; sourceTree = "<group>"; };
+		DC5D35FC113A93AF65ECE540D11C8803 /* GTProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTProgressBar.modulemap; sourceTree = "<group>"; };
+		DDC0A991FE1401840A0B5C14FD473160 /* UICircularProgressRing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICircularProgressRing.modulemap; sourceTree = "<group>"; };
+		E99D14228FD2B45647A304A3718962E7 /* GTProgressBarOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarOrientation.swift; path = GTProgressBar/Classes/GTProgressBarOrientation.swift; sourceTree = "<group>"; };
+		EBAC4C60E57908268CC6DA2A1B6C5CD3 /* UICircularProgressRing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = src/UICircularProgressRing/UICircularProgressRing.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CAD3DB88AF7FDB3AA2F03DF263F931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB13E9B1DBDBAE279D859A168B7E0A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D79F397BC98F2CCE06FF9ADDA4ED07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DDA2FD2922326E0218A8BC9C8D665D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12629EE8A55F540F41D36A2637736C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CF4D9029E43428577B0CA1FA6FE2FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6ED66E51D4898D61E71C4E3E60BE9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550E5BEEAC016C12BE118DFB92C4F635 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425151E7D9A7DBC12A3B456D4371942E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E312439033667AD279C0E8DABCB6772 /* GTProgressBar */,
+				CDA38ED4BE13286B561F74F1F664C5A3 /* SkyFloatingLabelTextField */,
+				6DCB6F530D94793FE9B29A36C037DD6F /* UICircularProgressRing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48C35118D175A21579B38A0A2EA152A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECAECA47C65EAFC45B867B230E6259D /* Info.plist */,
+				DDC0A991FE1401840A0B5C14FD473160 /* UICircularProgressRing.modulemap */,
+				6A5F32B709339093409BE2CC8BEC6AA0 /* UICircularProgressRing.xcconfig */,
+				B3CBCB39A5234B90D768E55957AC1873 /* UICircularProgressRing-dummy.m */,
+				DA8DC2E5C60DB7ECBBB0DC5CE8D1828B /* UICircularProgressRing-prefix.pch */,
+				B8491F615C07DB69A89E8327CBBBFA61 /* UICircularProgressRing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICircularProgressRing";
+			sourceTree = "<group>";
+		};
+		4E312439033667AD279C0E8DABCB6772 /* GTProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				1DB953D0A66678AB7A1854BDD1CA89C5 /* FrameCalculator.swift */,
+				B09B789DFFA05EE00D550A604B955E16 /* GTProgressBar.swift */,
+				0C3DA8BB3577BCE5B664E465131F3CFC /* GTProgressBarCornerType.swift */,
+				11239A714D341835117F1CA3850AFA79 /* GTProgressBarDirection.swift */,
+				D9190C7B0723D1FF9C648EBC882967C0 /* GTProgressBarLabelPosition.swift */,
+				E99D14228FD2B45647A304A3718962E7 /* GTProgressBarOrientation.swift */,
+				C942235ABCF053F3C2A87138EE3F2D5E /* HorizontalLabelPositionFrameCalculator.swift */,
+				0DEA6D6FB301E1AE8841019C1557140E /* UILabelExtensions.swift */,
+				AEACBB48F9210ECA7F43624DCEA73AB4 /* UIViewExtensions.swift */,
+				99EC444BECDE279FEA8E27C8026AB1AE /* VerticalLabelPositionFrameCalculator.swift */,
+				EC5B59663ADF2479ABDE2C4CC22DE363 /* Support Files */,
+			);
+			path = GTProgressBar;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6788B10A876D4EEC385F72CE9676353F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF86567547BC016553668368B3CD12E /* Info.plist */,
+				93907C2342FB7AC0FB5BD1EBE9114F57 /* SkyFloatingLabelTextField.modulemap */,
+				5C83CCC5E2A143F7023185776BA9B01C /* SkyFloatingLabelTextField.xcconfig */,
+				ABE4933AE77E4D0C5C720EB7EE97C6BC /* SkyFloatingLabelTextField-dummy.m */,
+				1E2DBD0BB8C00D1BC7913D85D6FC9E18 /* SkyFloatingLabelTextField-prefix.pch */,
+				8036BFF325017134BB304C6FC38FD763 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		6DCB6F530D94793FE9B29A36C037DD6F /* UICircularProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				EBAC4C60E57908268CC6DA2A1B6C5CD3 /* UICircularProgressRing.h */,
+				AF48E4210716F91069D5C5035F6E5DA8 /* UICircularProgressRingDelegate.swift */,
+				2B963936A4B757EE6425A4B841A90071 /* UICircularProgressRingGradientPosition.swift */,
+				6675E48717B9FC009D8D2C846D07E287 /* UICircularProgressRingLayer.swift */,
+				64085ED06A96B0A205F114E50798E540 /* UICircularProgressRingStyle.swift */,
+				65DFDA7E31ECDDA917744540012D1BC2 /* UICircularProgressRingView.swift */,
+				48C35118D175A21579B38A0A2EA152A7 /* Support Files */,
+			);
+			path = UICircularProgressRing;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				425151E7D9A7DBC12A3B456D4371942E /* Pods */,
+				E49D199FB9CB23BAB305F5460794BBC1 /* Products */,
+				A3DC91F47C0E920E88CB541027611AB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3DC91F47C0E920E88CB541027611AB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF173DE64AAFBF034405373F2B57FB17 /* Pods-enirve */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF173DE64AAFBF034405373F2B57FB17 /* Pods-enirve */ = {
+			isa = PBXGroup;
+			children = (
+				BD07381ABE5DD33CFBEC971F3A6BAEB7 /* Info.plist */,
+				271C1E50EE84270AC7665D40BFD3EF78 /* Pods-enirve.modulemap */,
+				BB685A4F5EC325EAF346C45CC496AFEA /* Pods-enirve-acknowledgements.markdown */,
+				A6C92AD051B786791F326DC2270AF4C9 /* Pods-enirve-acknowledgements.plist */,
+				D33D979833776EEC2354EAB7FE0C1783 /* Pods-enirve-dummy.m */,
+				4DFF89341CE2FCAA1CBC7458AD1B6E90 /* Pods-enirve-frameworks.sh */,
+				7D3D52CC46F3C5612D079A2ABE36FDE5 /* Pods-enirve-resources.sh */,
+				AABDCBFF79E47EBE5ABFFF3D426D05DC /* Pods-enirve-umbrella.h */,
+				A3B09E5BC6E230CEC9F578E87774BD0A /* Pods-enirve.debug.xcconfig */,
+				295012B8C4691A9838058ACCBC7ADAE3 /* Pods-enirve.release.xcconfig */,
+			);
+			name = "Pods-enirve";
+			path = "Target Support Files/Pods-enirve";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA38ED4BE13286B561F74F1F664C5A3 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				AAAC84D680143AD166D99EC6D4341E81 /* SkyFloatingLabelTextField.swift */,
+				4EBBBCE72A8461ED816DCC9A7C29AD5F /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				3BDC8A93291B3095E58695232912233A /* UITextField+fixCaretPosition.swift */,
+				6788B10A876D4EEC385F72CE9676353F /* Support Files */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		E49D199FB9CB23BAB305F5460794BBC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCB21180A7AE922B66D18D4B41212B4 /* GTProgressBar.framework */,
+				C2466662CF31E8918729073B0E23B5F2 /* Pods_enirve.framework */,
+				AF47645E1EB87D2FB4F5008BF927390E /* SkyFloatingLabelTextField.framework */,
+				2BB13638CE6D3B2F5FACF9405B6F4E7F /* UICircularProgressRing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5B59663ADF2479ABDE2C4CC22DE363 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D35FC113A93AF65ECE540D11C8803 /* GTProgressBar.modulemap */,
+				3D9C6093A7DA3ECCD810927998B3F94C /* GTProgressBar.xcconfig */,
+				69916A8339EA4346701EFA18FF54FB31 /* GTProgressBar-dummy.m */,
+				AA42636C08E864E69A9392F73C9F5CBE /* GTProgressBar-prefix.pch */,
+				C7E9774B15762C17CC5C263EAB440E3B /* GTProgressBar-umbrella.h */,
+				1DB6D91C66A51B08CE7FC5D3AC4A5B8F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTProgressBar";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1841A9FADAFA0ED8B58BF165908EE884 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B382A38BCE3796B36FC4705E080EE52D /* GTProgressBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCF8EBB489B6661C38E1740565B1A77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D977A164E3DE1CA8F724C733F249D0 /* Pods-enirve-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F4DE4831E5EF3B6AFC4EF3F9B48A97B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7205A0D1D88D69CCDBAAA6F98858B6 /* UICircularProgressRing-umbrella.h in Headers */,
+				CDC48EBCCA9485A5FEDCFA36EAEF660E /* UICircularProgressRing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE27DE6BD0DE6B9724C2E0FDF6045279 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD4C78BE212C57AB85826E85E1EBC3 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		710A779FA22F904948D3AEA94E15655C /* Pods-enirve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16424B354C1919580553B9ADD3027DB /* Build configuration list for PBXNativeTarget "Pods-enirve" */;
+			buildPhases = (
+				E9D0E5DC79E2A6AE0CA2FD9934B747DD /* Sources */,
+				B12629EE8A55F540F41D36A2637736C2 /* Frameworks */,
+				3FCF8EBB489B6661C38E1740565B1A77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79F3C23EEB29256ED8FE314F7689C949 /* PBXTargetDependency */,
+				39B4F986051329A0227C28B20A66CA51 /* PBXTargetDependency */,
+				D67BBAC3177641C09FA539DA1647B772 /* PBXTargetDependency */,
+			);
+			name = "Pods-enirve";
+			productName = "Pods-enirve";
+			productReference = C2466662CF31E8918729073B0E23B5F2 /* Pods_enirve.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EF3F7B4523DC684E449F8F2A05406CE /* UICircularProgressRing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C91EC6666382EEF6F2F4B55D9F2DC8 /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */;
+			buildPhases = (
+				4305F9060F6C87B711674971F735D835 /* Sources */,
+				F6ED66E51D4898D61E71C4E3E60BE9E2 /* Frameworks */,
+				4F4DE4831E5EF3B6AFC4EF3F9B48A97B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICircularProgressRing;
+			productName = UICircularProgressRing;
+			productReference = 2BB13638CE6D3B2F5FACF9405B6F4E7F /* UICircularProgressRing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E18970B88FD553C148F216EE439F51CE /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC91B7BD0535E6910C255775131096CE /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				F42CE48E87ECAE5ECC7DBC48BE4A5507 /* Sources */,
+				93D79F397BC98F2CCE06FF9ADDA4ED07 /* Frameworks */,
+				AE27DE6BD0DE6B9724C2E0FDF6045279 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = AF47645E1EB87D2FB4F5008BF927390E /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F900866A3F3BA88A07A675DDB2CE90F8 /* GTProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DCBB9B6DC3A6D13A08EE0DFDED896D /* Build configuration list for PBXNativeTarget "GTProgressBar" */;
+			buildPhases = (
+				26131A4201354B0F17FC5F9AC1569AF2 /* Sources */,
+				76CAD3DB88AF7FDB3AA2F03DF263F931 /* Frameworks */,
+				1841A9FADAFA0ED8B58BF165908EE884 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTProgressBar;
+			productName = GTProgressBar;
+			productReference = 9BCB21180A7AE922B66D18D4B41212B4 /* GTProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E49D199FB9CB23BAB305F5460794BBC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F900866A3F3BA88A07A675DDB2CE90F8 /* GTProgressBar */,
+				710A779FA22F904948D3AEA94E15655C /* Pods-enirve */,
+				E18970B88FD553C148F216EE439F51CE /* SkyFloatingLabelTextField */,
+				8EF3F7B4523DC684E449F8F2A05406CE /* UICircularProgressRing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26131A4201354B0F17FC5F9AC1569AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476FAEE20599FFDFC52D2403C0706AF5 /* FrameCalculator.swift in Sources */,
+				5D8D7A64B6FE6AE34858E36B6B699B47 /* GTProgressBar-dummy.m in Sources */,
+				93642E079C2ED0D0010D84CA4AA32BBB /* GTProgressBar.swift in Sources */,
+				36952DD4A2503555FBFEAFDD3C15A4AB /* GTProgressBarCornerType.swift in Sources */,
+				A48B2035D2CCB468698821FBCC537766 /* GTProgressBarDirection.swift in Sources */,
+				E3A8A51370C955835CD4BD4ACA709B0E /* GTProgressBarLabelPosition.swift in Sources */,
+				C0DF5F75E8ACF25595BBC08001A4B885 /* GTProgressBarOrientation.swift in Sources */,
+				9C440FB7D8CC5583D2342776F0DA197D /* HorizontalLabelPositionFrameCalculator.swift in Sources */,
+				6A7F97514886644231937757F5647B19 /* UILabelExtensions.swift in Sources */,
+				B966C27AB14EA27CBCF2B9018D2DD890 /* UIViewExtensions.swift in Sources */,
+				D1E7D4B471C6AF1474BEA5ACECA88EE5 /* VerticalLabelPositionFrameCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4305F9060F6C87B711674971F735D835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A5F7E5C922A029231686499D941EC4 /* UICircularProgressRing-dummy.m in Sources */,
+				350523E0AFBD0A7C25FC3D46B96A469A /* UICircularProgressRingDelegate.swift in Sources */,
+				79FD334DF6EA52BDC29C93BD032C0A5A /* UICircularProgressRingGradientPosition.swift in Sources */,
+				54413514B694E03BC7A15A23DE456266 /* UICircularProgressRingLayer.swift in Sources */,
+				BA2E72110A53B9712BE5E6D53FF1D29B /* UICircularProgressRingStyle.swift in Sources */,
+				189B3E7D7B7C90767DA4BD96BEAF137E /* UICircularProgressRingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D0E5DC79E2A6AE0CA2FD9934B747DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3213EF6B97B5AA2B96C500FBB72003 /* Pods-enirve-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CE48E87ECAE5ECC7DBC48BE4A5507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875CE7988A3B22644B5D0F4B82296D2 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				1AD4A092625B085C58254B1A2A1D1395 /* SkyFloatingLabelTextField.swift in Sources */,
+				D0040890F2028B3EAB5A939129051938 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				13B2D4045235A53D2D24366D510E8A1F /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39B4F986051329A0227C28B20A66CA51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = E18970B88FD553C148F216EE439F51CE /* SkyFloatingLabelTextField */;
+			targetProxy = 9DB4D8AB07E1643A43561D5D310200C9 /* PBXContainerItemProxy */;
+		};
+		79F3C23EEB29256ED8FE314F7689C949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTProgressBar;
+			target = F900866A3F3BA88A07A675DDB2CE90F8 /* GTProgressBar */;
+			targetProxy = AE2871A45503ACA5A27C7C099276727E /* PBXContainerItemProxy */;
+		};
+		D67BBAC3177641C09FA539DA1647B772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICircularProgressRing;
+			target = 8EF3F7B4523DC684E449F8F2A05406CE /* UICircularProgressRing */;
+			targetProxy = F7B5388B72209B7809591E93C5F1F58F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184B170D68B1B55CD4B0738E993688B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C83CCC5E2A143F7023185776BA9B01C /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53627BF9337C6D438BD14D9D87BCB4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5F32B709339093409BE2CC8BEC6AA0 /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		70C0D9732F7899D6E8DBE9D49725CE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9C6093A7DA3ECCD810927998B3F94C /* GTProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTProgressBar/GTProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTProgressBar/GTProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = GTProgressBar;
+				PRODUCT_NAME = GTProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A688139C8C6FD474D3726A60210F443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5F32B709339093409BE2CC8BEC6AA0 /* UICircularProgressRing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICircularProgressRing/UICircularProgressRing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICircularProgressRing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICircularProgressRing/UICircularProgressRing.modulemap";
+				PRODUCT_MODULE_NAME = UICircularProgressRing;
+				PRODUCT_NAME = UICircularProgressRing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C23890A70B70915B29C84C140F1547B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C83CCC5E2A143F7023185776BA9B01C /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC6E82E3F6DD60134556855E49B3921A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B09E5BC6E230CEC9F578E87774BD0A /* Pods-enirve.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enirve/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enirve/Pods-enirve.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCF3D987AB65D2E9FD97E9E760AD0359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9C6093A7DA3ECCD810927998B3F94C /* GTProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTProgressBar/GTProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTProgressBar/GTProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = GTProgressBar;
+				PRODUCT_NAME = GTProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAD833DD78851E769FFC6CA3DE1099A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295012B8C4691A9838058ACCBC7ADAE3 /* Pods-enirve.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-enirve/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-enirve/Pods-enirve.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C91EC6666382EEF6F2F4B55D9F2DC8 /* Build configuration list for PBXNativeTarget "UICircularProgressRing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53627BF9337C6D438BD14D9D87BCB4CA /* Debug */,
+				9A688139C8C6FD474D3726A60210F443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DCBB9B6DC3A6D13A08EE0DFDED896D /* Build configuration list for PBXNativeTarget "GTProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF3D987AB65D2E9FD97E9E760AD0359 /* Debug */,
+				70C0D9732F7899D6E8DBE9D49725CE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC91B7BD0535E6910C255775131096CE /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23890A70B70915B29C84C140F1547B5 /* Debug */,
+				184B170D68B1B55CD4B0738E993688B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16424B354C1919580553B9ADD3027DB /* Build configuration list for PBXNativeTarget "Pods-enirve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6E82E3F6DD60134556855E49B3921A /* Debug */,
+				EAD833DD78851E769FFC6CA3DE1099A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

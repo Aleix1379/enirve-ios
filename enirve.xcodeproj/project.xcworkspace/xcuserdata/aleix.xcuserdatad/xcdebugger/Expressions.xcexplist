@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HomeCollectionViewController.viewDidLoad():HomeCollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.verbs">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectionVerbsViewController.unwindToSelectionVerbs(for:):SelectionVerbsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.source">
+            </PersistentString>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

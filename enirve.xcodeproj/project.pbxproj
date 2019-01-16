@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0411B46C215C0FCC00E5BABB /* SelectionVerbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411B46B215C0FCC00E5BABB /* SelectionVerbsViewController.swift */; };
+		04235E05215D6C1F00E3C518 /* UICircularProgressRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04235E04215D6C1F00E3C518 /* UICircularProgressRing.framework */; };
+		042DB6E0215FA38B00970656 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DB6DF215FA38B00970656 /* ResultViewController.swift */; };
+		042EC032215D49A300592371 /* PractiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EC031215D49A300592371 /* PractiseViewController.swift */; };
+		043DB0DF215D5E5A00C1588D /* GTProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043DB0DE215D5E5A00C1588D /* GTProgressBar.framework */; };
+		0447B73C216135ED00402FF8 /* SearchCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447B73B216135ED00402FF8 /* SearchCollectionReusableView.swift */; };
+		0447B73E2161422B00402FF8 /* FooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447B73D2161422B00402FF8 /* FooterCollectionReusableView.swift */; };
+		046D92D8215EA982007205AA /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D92D7215EA982007205AA /* SkyFloatingLabelTextField.framework */; };
+		04BDD6F02165205900946E58 /* ModalVerbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BDD6EF2165205900946E58 /* ModalVerbsViewController.swift */; };
+		04E9704F21540D4200663544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9704E21540D4200663544 /* AppDelegate.swift */; };
+		04E9705421540D4200663544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9705221540D4200663544 /* Main.storyboard */; };
+		04E9705621540D4400663544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E9705521540D4400663544 /* Assets.xcassets */; };
+		04E9705921540D4400663544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9705721540D4400663544 /* LaunchScreen.storyboard */; };
+		04E9706121540E4E00663544 /* VerbCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9706021540E4E00663544 /* VerbCollectionViewCell.swift */; };
+		04E9706321540FA000663544 /* verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9706221540FA000663544 /* verb.swift */; };
+		04E970652154150400663544 /* VerbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E970642154150400663544 /* VerbService.swift */; };
+		04FE6BB021595EA500EEF410 /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE6BAF21595EA500EEF410 /* colors.swift */; };
+		04FE6BB221595EF700EEF410 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE6BB121595EF700EEF410 /* HomeViewController.swift */; };
+		8A19F20773962E71CA55B9CD /* Pods_enirve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F3DCC4D23B777E5F04EC90 /* Pods_enirve.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0411B46B215C0FCC00E5BABB /* SelectionVerbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionVerbsViewController.swift; sourceTree = "<group>"; };
+		04235E04215D6C1F00E3C518 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		042DB6DF215FA38B00970656 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		042EC031215D49A300592371 /* PractiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseViewController.swift; sourceTree = "<group>"; };
+		043DB0DE215D5E5A00C1588D /* GTProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0447B73B216135ED00402FF8 /* SearchCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionReusableView.swift; sourceTree = "<group>"; };
+		0447B73D2161422B00402FF8 /* FooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FooterCollectionReusableView.swift; path = enirve/FooterCollectionReusableView.swift; sourceTree = "<group>"; };
+		046D92D7215EA982007205AA /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDD6EF2165205900946E58 /* ModalVerbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalVerbsViewController.swift; sourceTree = "<group>"; };
+		04E9704B21540D4200663544 /* enirve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enirve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E9704E21540D4200663544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E9705321540D4200663544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E9705521540D4400663544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E9705821540D4400663544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E9705A21540D4400663544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E9706021540E4E00663544 /* VerbCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbCollectionViewCell.swift; sourceTree = "<group>"; };
+		04E9706221540FA000663544 /* verb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verb.swift; sourceTree = "<group>"; };
+		04E970642154150400663544 /* VerbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbService.swift; sourceTree = "<group>"; };
+		04FE6BAF21595EA500EEF410 /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		04FE6BB121595EF700EEF410 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E859D98509DF00A5BD8DB68 /* Pods-enirve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enirve.release.xcconfig"; path = "Pods/Target Support Files/Pods-enirve/Pods-enirve.release.xcconfig"; sourceTree = "<group>"; };
+		87F3DCC4D23B777E5F04EC90 /* Pods_enirve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_enirve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BA37E18C72A383B9BFB7AE /* Pods-enirve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-enirve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-enirve/Pods-enirve.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E9704821540D4200663544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046D92D8215EA982007205AA /* SkyFloatingLabelTextField.framework in Frameworks */,
+				04235E05215D6C1F00E3C518 /* UICircularProgressRing.framework in Frameworks */,
+				043DB0DF215D5E5A00C1588D /* GTProgressBar.framework in Frameworks */,
+				8A19F20773962E71CA55B9CD /* Pods_enirve.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E9704221540D4200663544 = {
+			isa = PBXGroup;
+			children = (
+				0447B73D2161422B00402FF8 /* FooterCollectionReusableView.swift */,
+				04E9704D21540D4200663544 /* enirve */,
+				04E9704C21540D4200663544 /* Products */,
+				34B1FF371DCCF8E365891DE8 /* Frameworks */,
+				7AE136D9A7C8B4AD6B2A474C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04E9704C21540D4200663544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E9704B21540D4200663544 /* enirve.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E9704D21540D4200663544 /* enirve */ = {
+			isa = PBXGroup;
+			children = (
+				04FE6BAF21595EA500EEF410 /* colors.swift */,
+				04E9704E21540D4200663544 /* AppDelegate.swift */,
+				04E970642154150400663544 /* VerbService.swift */,
+				04E9705221540D4200663544 /* Main.storyboard */,
+				0447B73B216135ED00402FF8 /* SearchCollectionReusableView.swift */,
+				042DB6DF215FA38B00970656 /* ResultViewController.swift */,
+				042EC031215D49A300592371 /* PractiseViewController.swift */,
+				0411B46B215C0FCC00E5BABB /* SelectionVerbsViewController.swift */,
+				04FE6BB121595EF700EEF410 /* HomeViewController.swift */,
+				04E9706021540E4E00663544 /* VerbCollectionViewCell.swift */,
+				04E9706221540FA000663544 /* verb.swift */,
+				04E9705521540D4400663544 /* Assets.xcassets */,
+				04E9705721540D4400663544 /* LaunchScreen.storyboard */,
+				04E9705A21540D4400663544 /* Info.plist */,
+				04BDD6EF2165205900946E58 /* ModalVerbsViewController.swift */,
+			);
+			path = enirve;
+			sourceTree = "<group>";
+		};
+		34B1FF371DCCF8E365891DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046D92D7215EA982007205AA /* SkyFloatingLabelTextField.framework */,
+				04235E04215D6C1F00E3C518 /* UICircularProgressRing.framework */,
+				043DB0DE215D5E5A00C1588D /* GTProgressBar.framework */,
+				87F3DCC4D23B777E5F04EC90 /* Pods_enirve.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AE136D9A7C8B4AD6B2A474C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA37E18C72A383B9BFB7AE /* Pods-enirve.debug.xcconfig */,
+				7E859D98509DF00A5BD8DB68 /* Pods-enirve.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E9704A21540D4200663544 /* enirve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E9705D21540D4400663544 /* Build configuration list for PBXNativeTarget "enirve" */;
+			buildPhases = (
+				2CF2AD5A951E4F81204B57CC /* [CP] Check Pods Manifest.lock */,
+				04E9704721540D4200663544 /* Sources */,
+				04E9704821540D4200663544 /* Frameworks */,
+				04E9704921540D4200663544 /* Resources */,
+				E62586D68EFD5D39443BBFFC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = enirve;
+			productName = enirve;
+			productReference = 04E9704B21540D4200663544 /* enirve.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E9704321540D4200663544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aleix Martínez";
+				TargetAttributes = {
+					04E9704A21540D4200663544 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 04E9704621540D4200663544 /* Build configuration list for PBXProject "enirve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E9704221540D4200663544;
+			productRefGroup = 04E9704C21540D4200663544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E9704A21540D4200663544 /* enirve */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E9704921540D4200663544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9705921540D4400663544 /* LaunchScreen.storyboard in Resources */,
+				04E9705621540D4400663544 /* Assets.xcassets in Resources */,
+				04E9705421540D4200663544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CF2AD5A951E4F81204B57CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-enirve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62586D68EFD5D39443BBFFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-enirve/Pods-enirve-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTProgressBar/GTProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-enirve/Pods-enirve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E9704721540D4200663544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDD6F02165205900946E58 /* ModalVerbsViewController.swift in Sources */,
+				04E9706321540FA000663544 /* verb.swift in Sources */,
+				04FE6BB021595EA500EEF410 /* colors.swift in Sources */,
+				04E9704F21540D4200663544 /* AppDelegate.swift in Sources */,
+				0411B46C215C0FCC00E5BABB /* SelectionVerbsViewController.swift in Sources */,
+				042DB6E0215FA38B00970656 /* ResultViewController.swift in Sources */,
+				04E9706121540E4E00663544 /* VerbCollectionViewCell.swift in Sources */,
+				04FE6BB221595EF700EEF410 /* HomeViewController.swift in Sources */,
+				042EC032215D49A300592371 /* PractiseViewController.swift in Sources */,
+				0447B73C216135ED00402FF8 /* SearchCollectionReusableView.swift in Sources */,
+				0447B73E2161422B00402FF8 /* FooterCollectionReusableView.swift in Sources */,
+				04E970652154150400663544 /* VerbService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E9705221540D4200663544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E9705321540D4200663544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E9705721540D4400663544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E9705821540D4400663544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E9705B21540D4400663544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E9705C21540D4400663544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E9705E21540D4400663544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BA37E18C72A383B9BFB7AE /* Pods-enirve.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS8D2UQL5V;
+				INFOPLIST_FILE = enirve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleixmp.eiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E9705F21540D4400663544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E859D98509DF00A5BD8DB68 /* Pods-enirve.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS8D2UQL5V;
+				INFOPLIST_FILE = enirve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aleixmp.eiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E9704621540D4200663544 /* Build configuration list for PBXProject "enirve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9705B21540D4400663544 /* Debug */,
+				04E9705C21540D4400663544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E9705D21540D4400663544 /* Build configuration list for PBXNativeTarget "enirve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9705E21540D4400663544 /* Debug */,
+				04E9705F21540D4400663544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E9704321540D4200663544 /* Project object */;
+}
